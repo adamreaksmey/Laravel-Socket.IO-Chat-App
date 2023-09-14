@@ -15,3 +15,5 @@ You are ready to go. 😎
 This chat application uses Socket.IO for realtime connection with users . In order to use Socket.IO you need to run a Node.js server.
 Simply switch to the base directory of the project and run `node socket` (Make sure you have [Node.JS](https://nodejs.org/en/) installed on your machine and the dependencies are installed priorly) .
 Finally, run `php artisan serve` to start the Laravel application .
+
+If you're using Windows, make sure you have a linux subsystem installed too.
