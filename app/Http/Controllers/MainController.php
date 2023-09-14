@@ -11,7 +11,6 @@ class MainController extends Controller
 {
     public function home()
     {
-        // return Redis::publish('newMessage','What is up ?');
         return view('main', ['messages' => Message::all()]);
     }
     public function store(Request $request)
