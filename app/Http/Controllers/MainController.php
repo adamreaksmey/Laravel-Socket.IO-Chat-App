@@ -13,6 +13,7 @@ class MainController extends Controller
     {
         return view('main', ['messages' => Message::all()]);
     }
+    
     public function store(Request $request)
     {
         if (!Auth::check()) {
